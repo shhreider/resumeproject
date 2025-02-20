@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.info-text {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.info {
+    display: flex;
+    max-width: 600px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+h1 {
+    color:#ed71a0;
+    margin-bottom: 4px;
+}
+
+p {
+    margin-bottom: 32px;
+}
+
+h2 {
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px; 
+    margin-bottom: 4px;
+}
+
+.img {
+    width: 200px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+} 
+
+a:hover {
+    color: #ed71a0;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+
+.table {
+    width: 580px;
+}
+
+.tableh {
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+form {
+    border: 2px solid #ed71a0;
+    border-radius: 8px;
+    padding: 12px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: inherit;
+}
+
+.shell {
+    border-radius: 4px;
+    width: 200px;
+    height: 24px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.textarea {
+    border-radius: 4px;
+    width: 400px;
+    height: 80px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.button {
+    width: 160px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.button:hover {
+    background-color: #ed71a0;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:visited {
+    background-color: #791f41;
+    color: aliceblue;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 12px;
+    width: 600px;
+    background-color: #fdf2c0;
+    margin-bottom: 12px;
+}
+
